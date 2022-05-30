@@ -1,0 +1,201 @@
+
+/* hambuger css */
+/* @media only screen and (max-width: 768px) {
+    .left_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .logo_img{
+        display: none;
+    }
+    .logo button{
+        margin: 0 auto;
+    }
+    .right_content {
+        margin-top: 10px;
+    }
+    .menu{
+        display: block;
+    }
+    .menu-items{
+        display: none;
+    }
+    .nav{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    .search_logo{
+       display: none;
+    }
+    
+.hambuger{
+    padding-right: 40px;
+    margin-top: 20px;
+    float: right;
+    display: block;
+
+}
+ .hambuger a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+ .hambuger a span{
+    border-top: 3px solid #db3a3a;
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+  .hambuger a span::after{
+    border-top: 3px solid #eb4040;
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:8px;
+}
+ .hambuger a span::before{
+    border-top: 3px solid #e63f3f;
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:-15px;
+}
+.hambuger a span::before{
+    top:-15px;
+}
+ .hambuger a span::after{
+    top:8px;
+} 
+.hambuger.openMenu a span::before{  
+    transform: rotate(45deg);
+    top: 0;
+    
+}
+.hambuger.openMenu a span{
+    border-top: none; 
+    
+}
+.hambuger.openMenu a span::after{
+    top: 0;
+    transform: rotate(-45deg);
+}    
+    
+} */
+
+
+
+
+@media screen and (min-width: 320px) and (max-width:480px){
+    .upperimg {
+        display: none;
+    }
+    .about_me_content h2 {
+        padding-left: 20px;
+    }
+    .quote {
+        padding-left: 20px;
+    }
+    .para {
+        padding-left: 20px;
+        font-size: 15px;
+    }
+    .card{
+        margin-left:55px;
+    }
+    .about_me_content a {
+        padding-left: 20px;
+    }
+    .tabcontent {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .tablink{
+        width: 80px;
+        height:40px;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    i.fa.fa-twitter {
+        padding: 33px 0 15px 465px;
+    }
+    .tweet_para {
+        font-size: 12px;
+    }
+    .story {
+        height: 325px;
+    }
+
+}
+@media screen and (min-width: 481px) and (max-width:768px){
+    .upperimg {
+        display: none;
+    }
+    .about_me_content h2{
+        padding-left: 20px;
+    }
+    .quote {
+        padding-left: 20px;
+        font-size: 12px;
+    }
+    .about_me_content a {
+        margin-left: 20px;
+    }
+    .para {
+        padding-left: 20px;
+        font-size: 12px;
+    }
+    .tabcontent p{
+        font-size:12px;
+    }
+    
+    .tablink {
+        width: 120px;
+        margin-top: 124px;
+        font-size: 13px;
+        height: 60px;
+        margin-left: 18px;
+    }
+    i.fa.fa-twitter {
+        padding: 33px 0 15px 292px;
+    }
+
+
+}
+@media screen and (min-width: 769px) and (max-width:1024px){
+    .upperimg {
+        display: none;
+    }
+    .about_me_content h2 {
+        margin-left: 20px;
+    }
+    .quote {
+        margin-left: 20px;
+        font-size: 19px;
+    }
+    .para{
+        font-size: 19px;
+        margin-left: 20px;
+    }
+    .about_me_content a {
+        margin-left: 20px;
+    }
+    .tablink {
+        width: 160px;
+        height: 70px;
+    }
+    /* .tweet .slick{
+       display: none;
+    } */
+
+}
